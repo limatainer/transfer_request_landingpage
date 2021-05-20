@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxi</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper center-block">
+        <a href="#" class="brand-logo center">SITEL </a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="sass.html">Nice</a></li>
+          <li><a href="https://maxconnect.sitel.com/maxconnect/Account/Login">MaxConnect</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container text-align: center">
+      <h1>Taxi Request <i class="material-icons">directions_car</i></h1>
+      <br>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Name" id="first_name" type="text" class="validate">
+              <label for="first_name">Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" placeholder="Sitel Email" type="email" class="validate">
+              <label for="last_name">Email</label>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <form action="#">
+        <p>
+          <label>
+            <input type="checkbox" class="filled-in" />
+            <span>12am</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" class="filled-in" />
+            <span>1am</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" class="filled-in" />
+            <span>2am</span>
+          </label>
+        </p>
+      </form>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="number" class="validate">
+              <label for="last_name">Zipcode</label>
+            </div>
+            <br>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.sitel.com/">Sitel Group
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">MaxConnect Sitel</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3"
+                href="https://maxconnect.sitel.com/maxconnect/Account/Login">MaxConnect</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2021
+        <a class="grey-text text-lighten-4 right" href="#!">With love by Limatainer</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./assets/js/materialize.js"></script>
+  <script src="./assets/js/init.js"></script>
+</body>
+
+</html>
